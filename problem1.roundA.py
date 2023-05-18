@@ -31,3 +31,5 @@ if __name__ == '__main__':
             grid.append(k)
         result = map_collision(grid, array)
         results.append(result) 
+    for i, result in enumerate(results):
+        print("Case #{}: {}".format(i+1, result))
